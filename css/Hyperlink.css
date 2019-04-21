@@ -1,0 +1,36 @@
+/*超链接格式*/
+a {
+	text-decoration: none;
+	font-size: 40px;
+}
+
+a:link {
+	color: black;
+}
+
+
+a:visited {
+	color: skyblue;
+}
+
+a:hover {
+	color: #A52A2A;
+}
+
+a:active {
+	color: aqua;
+}
+
+/*返回顶部标签*/
+a.top {
+	/*设置为块元素*/
+	display: block;
+	/*设置颜色*/
+	color: cornsilk;
+	/*设置固定位置*/
+	position: fixed;
+	/*设置位置*/
+	right: 30px;
+	bottom: 30px;
+
+}...
