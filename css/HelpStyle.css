@@ -1,0 +1,15 @@
+body {
+    background-color: #FDFDFD;
+    font-size: 30px;
+    color: #D2B48C;
+}
+
+div {
+    text-align: center;
+    margin: auto;
+    height: auto;
+}
+
+img {
+    display: inline;
+}

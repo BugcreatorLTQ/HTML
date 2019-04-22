@@ -2,21 +2,31 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>菜鸟教程(runoob.com)</title>
+        <title>Test</title>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+        <script src="../srcipt/TestScript.js"></script>
     </head>
-    <script>
-        function test() {
-            "use strict"
-            let element = document.getElementById("image");
-            element.height += 50;
-            element.width += 50;
+    <style>
+        p {
+            font-family: "book antiqua";
+            font-size: 40px;
         }
-    </script>
+    </style>
     <body>
-
-        <button onclick="test()">Dont Touch Me!</button>
+        <button id="in">In</button>
+        <button id="out">Out</button>
+        <button id="up">Up</button>
+        <button id="down">Down</button>
+        <button id="test_button">test</button>
         <br />
-        <img id="image" src="../Image/1.jpg" width="160" height="120">
-
+        <canvas id="test" width="200" height="200"></canvas>
+        <script>
+            draw();
+        </script>
+        <p id="test"> A </p>
+        <p> B </p>
+        <p> C </p>
+        <p> D </p>
+        <p> E </p>
     </body>
 </html>

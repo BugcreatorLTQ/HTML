@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+div {
+    background: #777;
+    color: #DDD;
+    font-family: "arial black";
+    font-size: 90px;
+    text-align: center;
+}
